@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root{
+    --primary-c: #0E71B8;
+}
+
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Configuración para usar rem / 1rem == 10px */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px; 
+}
+/* --------------------------------------------- */
+
+.font__poppins--400{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.font__poppins--500{
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.font__poppins--600{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+/* ----------------------------------------------- */
+.nav{
+    background-color: var(--primary-c);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+    background-color: var(--primary-c);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+.nav__logo{
+    height: 7.5rem;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 2rem;
+    padding: .5rem;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    background-color: black;
+    padding: .5rem;
+}
