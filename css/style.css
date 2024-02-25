@@ -38,9 +38,7 @@ body{
     text-align: center;
 }
 
-.svg__small{
-    font-size: .5rem;
-}
+
 /* ----------------------------------------------- */
 /* En la barra de navegación se utilizo css nesting */
 .nav{
@@ -51,7 +49,7 @@ body{
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        height: 10rem;
+        height: 6rem;
         background-color: var(--primary-c);
         padding: 0 3rem;
     }
@@ -84,10 +82,10 @@ body{
     /* height: 20rem; */
 
     .header__container{
-        img{
-            width: 100vw;
-            background-size: cover;
-        }
+        width: 100%;
+        height: 50rem;
+        background-image: url(../img/bg-giga.png);
+        background-size: cover;
     }
 }
 
@@ -98,5 +96,26 @@ body{
     .icon__space{
         margin-top: 1rem;
         
+    }
+}
+
+.main__index{
+
+    .marcas__index{
+        .article__marcas{
+            padding: 30px 60px 30px 60px;
+            .marcas--small{
+                width: 18rem;
+            }
+        }
+    }
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--primary-c);
+    img{
+        width: 15rem;
     }
 }
