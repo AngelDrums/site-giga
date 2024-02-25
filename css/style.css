@@ -19,7 +19,16 @@ body{
     font-size: 16px; 
 }
 /* --------------------------------------------- */
-
+.font__roboto--700{
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.font__roboto--200{
+    font-family: 'Roboto Mono';
+    font-weight: 200;
+    text-transform: uppercase;
+}
 .font__poppins--400{
     font-family: 'Poppins';
     font-weight: 400;
@@ -34,10 +43,15 @@ body{
     font-family: 'Poppins';
     font-weight: 600;
 }
-.center{
-    text-align: center;
+
+
+.fontz--4{
+    font-size: 4rem;
 }
 
+.spacing__margint--4{
+    margin: 4rem 0;
+}
 
 /* ----------------------------------------------- */
 /* En la barra de navegación se utilizo css nesting */
@@ -110,12 +124,43 @@ body{
         }
     }
 }
-
+  
 /* Footer */
 
 .footer {
     background-color: var(--primary-c);
     img{
         width: 15rem;
+    }
+}
+
+/* nosotros.html */
+
+.main__nosotros{
+    .nosotros__title{
+        margin: 6rem;
+    }
+    .nosotros__historia{
+        .nosotros__text{
+            width: 500px;
+            overflow: hidden;
+        }
+    }
+    .formula__title{
+        width: 60rem;
+        margin-bottom: 5rem;
+    }
+    .formula__nosotros{
+        background-color: var(--primary-c);
+        color: #fff;
+        height: 45rem;
+        .formula__valores{
+            
+            .valores{
+                width: 400px;
+                margin-right: 9rem;
+                margin-bottom: 3rem;
+            }
+        }
     }
 }
