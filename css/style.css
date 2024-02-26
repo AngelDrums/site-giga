@@ -290,7 +290,11 @@ body {
     .caso__position__card{
         /* border: 1px solid black; */
     }
-    .sea__style{
-        /* border: 1px solid black; */
+    .caso__descripcion{
+        .caso__articulo__1{
+        }
+        .caso__articulo__2{
+            margin-left: 5rem;
+        }
     }
 }
