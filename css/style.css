@@ -1,64 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-:root{
+:root {
     --primary-c: #0E71B8;
 }
 
 /* Reset */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Configuración para usar rem / 1rem == 10px */
-html{
+html {
     font-size: 62.5%;
 }
-body{
-    font-size: 16px; 
+
+body {
+    font-size: 16px;
 }
+
 /* --------------------------------------------- */
-.font__roboto--700{
+.font__roboto--700 {
     font-family: 'Roboto Mono';
     font-weight: 700;
     text-transform: uppercase;
 }
-.font__roboto--200{
+
+.font__roboto--200 {
     font-family: 'Roboto Mono';
     font-weight: 200;
     text-transform: uppercase;
 }
-.font__poppins--400{
+
+.font__poppins--400 {
     font-family: 'Poppins';
     font-weight: 400;
 }
 
-.font__poppins--500{
+.font__poppins--500 {
     font-family: 'Poppins';
     font-weight: 500;
 }
 
-.font__poppins--600{
+.font__poppins--600 {
     font-family: 'Poppins';
     font-weight: 600;
 }
 
 
-.fontz--4{
+.fontz--4 {
     font-size: 4rem;
 }
 
-.spacing__margint--4{
+.spacing__margint--4 {
     margin: 4rem 0;
+}
+
+.img--small {
+    width: 50rem;
 }
 
 /* ----------------------------------------------- */
 /* En la barra de navegación se utilizo css nesting */
-.nav{
+.nav {
     background-color: var(--primary-c);
 
-    .container{
+    .container {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -67,35 +76,37 @@ body{
         background-color: var(--primary-c);
         padding: 0 3rem;
     }
+
     /* Logo */
-    .nav__logo{
+    .nav__logo {
         height: 7.5rem;
     }
 
-    ul li{
+    ul li {
         list-style: none;
         display: inline-block;
         margin-right: 2rem;
         padding: .5rem;
 
-        a{
+        a {
             color: #fff;
             text-decoration: none;
 
-            &:hover{
+            &:hover {
                 background-color: black;
                 padding: .5rem;
             }
         }
     }
 }
+
 /* -------------------------------------------- */
 /* Header */
 
-.header__index{
+.header__index {
     /* height: 20rem; */
 
-    .header__container{
+    .header__container {
         width: 100%;
         height: 50rem;
         background-image: url(../img/bg-giga.png);
@@ -103,60 +114,66 @@ body{
     }
 }
 
-.section__icon{
+.section__icon {
     display: flex;
     justify-content: space-around;
 
-    .icon__space{
+    .icon__space {
         margin-top: 1rem;
-        
+
     }
 }
 
-.main__index{
+.main__index {
 
-    .marcas__index{
-        .article__marcas{
+    .marcas__index {
+        .article__marcas {
             padding: 30px 60px 30px 60px;
-            .marcas--small{
+
+            .marcas--small {
                 width: 18rem;
             }
         }
     }
 }
-  
+
 /* Footer */
 
 .footer {
     background-color: var(--primary-c);
-    img{
+
+    img {
         width: 15rem;
     }
 }
 
 /* nosotros.html */
 
-.main__nosotros{
-    .nosotros__title{
+.main__nosotros {
+    .nosotros__title {
         margin: 6rem;
     }
-    .nosotros__historia{
-        .nosotros__text{
+
+    .nosotros__historia {
+        .nosotros__text {
             width: 500px;
             overflow: hidden;
         }
     }
-    .formula__title{
+
+    .formula__title {
         width: 60rem;
         margin-bottom: 5rem;
     }
-    .formula__nosotros{
+
+    .formula__nosotros {
         background-color: var(--primary-c);
         color: #fff;
         height: 53rem;
-        .formula__valores{
-            
-            .valores{
+
+        .formula__valores {
+
+            .valores {
                 width: 400px;
                 margin-right: 9rem;
                 margin-bottom: 3rem;
@@ -164,8 +181,8 @@ body{
         }
     }
 
-    .vision__nosotros{
-        .nosotros__mv{
+    .vision__nosotros {
+        .nosotros__mv {
             width: 45rem;
         }
     }
@@ -173,13 +190,34 @@ body{
 
 /* servicios.html */
 
-.header__servicios{
-    /* height: 20rem; */
+.header__servicios {
+    width: 100%;
+    height: 50rem;
 
-    /* .header__container__servicios{
-        width: 100%;
+    .header__container__servicios {
         height: 50rem;
         background-image: url(../img/bg-camera.webp);
         background-size: cover;
-    } */
+        .text__servicios{
+            height: 100%;
+            .tienda__style {
+                color: white;
+                margin-right: 45rem;
+            }
+        }
+    }
+
+    
+}
+
+.main__servicios {
+    .servicios__camara{
+        border: 1px solid blue;
+        width: 80rem;
+        .camara__text {
+            border: 1px solid black;
+            width: 40rem;
+            font-size: 1.8rem;
+        }
+    }
 }
