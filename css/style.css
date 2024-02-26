@@ -170,3 +170,16 @@ body{
         }
     }
 }
+
+/* servicios.html */
+
+.header__servicios{
+    /* height: 20rem; */
+
+    /* .header__container__servicios{
+        width: 100%;
+        height: 50rem;
+        background-image: url(../img/bg-camera.webp);
+        background-size: cover;
+    } */
+}
