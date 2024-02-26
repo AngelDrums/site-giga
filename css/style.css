@@ -255,9 +255,18 @@ body {
     
 }
 
-/* Caso de éxito */
+/* Caso de éxito - metodología MOBILE FIRST */
 .logo--small{
     height: 7.5rem;
+}
+
+.header__caso{
+    .caso__img{
+        display: none;
+        height: 40rem;
+       background-size: cover;
+        background-image: url(../img/bg-office.jpg);
+    }
 }
 
 .nav__caso{
@@ -275,5 +284,13 @@ body {
                 background-color: #000;
             }
         }
+    }
+}
+.main__caso{
+    .caso__position__card{
+        /* border: 1px solid black; */
+    }
+    .sea__style{
+        /* border: 1px solid black; */
     }
 }
