@@ -254,3 +254,26 @@ body {
     }
     
 }
+
+/* Caso de éxito */
+.logo--small{
+    height: 7.5rem;
+}
+
+.nav__caso{
+    background-color: var(--primary-c);
+    .caso__menu{
+        width: 100%;
+        
+        a{
+            color: #fff;
+            font-size: 1.8rem;
+            padding: 1rem;
+            margin-right: 1.5rem;
+            
+            &:hover{
+                background-color: #000;
+            }
+        }
+    }
+}
