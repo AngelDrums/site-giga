@@ -61,13 +61,16 @@ body {
 .img--small {
     width: 45rem;
     /* background-size: cover; */
-    
+
 }
 
 .imagen-cuadrada {
-    height: 40rem; /* Ancho deseado para la imagen cuadrada */
-    aspect-ratio: 1/1; /* Establece la relación de aspecto a 1:1 para hacerla cuadrada */
-    object-fit: cover; /* Opcional: para recortar la imagen y ajustarla al contenedor */
+    height: 40rem;
+    /* Ancho deseado para la imagen cuadrada */
+    aspect-ratio: 1/1;
+    /* Establece la relación de aspecto a 1:1 para hacerla cuadrada */
+    object-fit: cover;
+    /* Opcional: para recortar la imagen y ajustarla al contenedor */
 }
 
 /* ----------------------------------------------- */
@@ -206,8 +209,10 @@ body {
         height: 50rem;
         background-image: url(../img/bg-camera.webp);
         background-size: cover;
-        .text__servicios{
+
+        .text__servicios {
             height: 100%;
+
             .tienda__style {
                 color: white;
                 margin-right: 45rem;
@@ -215,19 +220,23 @@ body {
         }
     }
 
-    
+
 }
+
 .main__servicios {
-    .servicios__camara{
+    .servicios__camara {
         margin-top: 5rem;
+
         .camara__text {
             width: 40rem;
             font-size: 1.8rem;
             margin-right: 6rem;
         }
     }
-    .servicios__automatizacion{
+
+    .servicios__automatizacion {
         margin-top: 5rem;
+
         .automatizacion__text {
             width: 40rem;
             font-size: 1.8rem;
@@ -235,16 +244,19 @@ body {
         }
     }
 
-    .servicios__paneles{
+    .servicios__paneles {
         margin-top: 5rem;
+
         .paneles__text {
             width: 40rem;
             font-size: 1.8rem;
             margin-right: 6rem;
         }
     }
-    .servicios__software{
+
+    .servicios__software {
         margin-top: 5rem;
+
         .software__text {
             width: 40rem;
             font-size: 1.8rem;
@@ -252,49 +264,69 @@ body {
 
         }
     }
-    
+
 }
 
 /* Caso de éxito - metodología MOBILE FIRST */
-.logo--small{
+.logo--small {
     height: 7.5rem;
 }
-
-.header__caso{
-    .caso__img{
+    .caso__img {
         display: none;
         height: 40rem;
-       background-size: cover;
+        background-size: cover;
         background-image: url(../img/bg-office.jpg);
     }
-}
-
-.nav__caso{
+.nav__caso {
     background-color: var(--primary-c);
-    .caso__menu{
+
+    .caso__menu {
         width: 100%;
-        
-        a{
+
+        a {
             color: #fff;
             font-size: 1.8rem;
             padding: 1rem;
             margin-right: 1.5rem;
-            
-            &:hover{
+
+            &:hover {
                 background-color: #000;
             }
         }
     }
 }
-.main__caso{
-    .caso__position__card{
+
+.main__caso {
+    .caso__position__card {
         /* border: 1px solid black; */
     }
-    .caso__descripcion{
-        .caso__articulo__1{
-        }
-        .caso__articulo__2{
+
+    .caso__descripcion {
+        .caso__articulo__1 {}
+
+        .caso__articulo__2 {
             margin-left: 5rem;
         }
+    }
+
+  
+}
+    .caso__position__description__img{
+        display: flex;
+        flex-direction: column;
+    }
+
+@media (min-width: 991px) {
+    .caso__img {
+        display: block;
+    }
+
+    .caso__position__description__img{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 30rem;
     }
 }
