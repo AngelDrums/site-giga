@@ -59,7 +59,15 @@ body {
 }
 
 .img--small {
-    width: 50rem;
+    width: 45rem;
+    /* background-size: cover; */
+    
+}
+
+.imagen-cuadrada {
+    height: 40rem; /* Ancho deseado para la imagen cuadrada */
+    aspect-ratio: 1/1; /* Establece la relación de aspecto a 1:1 para hacerla cuadrada */
+    object-fit: cover; /* Opcional: para recortar la imagen y ajustarla al contenedor */
 }
 
 /* ----------------------------------------------- */
@@ -209,15 +217,40 @@ body {
 
     
 }
-
 .main__servicios {
     .servicios__camara{
-        border: 1px solid blue;
-        width: 80rem;
+        margin-top: 5rem;
         .camara__text {
-            border: 1px solid black;
             width: 40rem;
             font-size: 1.8rem;
+            margin-right: 6rem;
         }
     }
+    .servicios__automatizacion{
+        margin-top: 5rem;
+        .automatizacion__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-left: 6rem;
+        }
+    }
+
+    .servicios__paneles{
+        margin-top: 5rem;
+        .paneles__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-right: 6rem;
+        }
+    }
+    .servicios__software{
+        margin-top: 5rem;
+        .software__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-left: 6rem;
+
+        }
+    }
+    
 }
