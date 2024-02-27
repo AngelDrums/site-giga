@@ -64,6 +64,11 @@ body {
 
 }
 
+.img--smaller {
+    width: 50rem;
+    /* background-size: cover; */
+
+}
 .imagen-cuadrada {
     height: 40rem;
     /* Ancho deseado para la imagen cuadrada */
@@ -146,6 +151,16 @@ body {
             }
         }
     }
+}
+
+.index__grid{
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    /* grid-gap: 4rem; */
+    padding:  8rem;
 }
 
 /* Footer */
