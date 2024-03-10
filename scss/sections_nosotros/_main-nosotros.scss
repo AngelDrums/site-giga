@@ -8,17 +8,33 @@
             width: 500px;
             overflow: hidden;
         }
+
+        @media (max-width: 974px){
+            .img__somos{
+                height: 25rem;
+            }
+            .container{
+                justify-content: center;
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 490px){
+            .img__somos{
+                height: 18rem;
+            }
+        }
     }
 
     .formula__title {
-        width: 60rem;
+        // width: 60rem;
         margin-bottom: 5rem;
     }
 
     .formula__nosotros {
         background-color: var(--primary-c);
         color: #fff;
-        height: 53rem;
+        height: 50%;
 
         .formula__valores {
 
@@ -33,6 +49,19 @@
     .vision__nosotros {
         .nosotros__mv {
             width: 45rem;
+        }
+
+        @media (max-width: 961px){
+            .img__vision{
+                height: 25rem;
+                margin-top: 1rem;
+            }
+        }
+
+        @media (max-width: 490px){
+            .img__vision{
+                height: 18rem;
+            }
         }
     }
 }

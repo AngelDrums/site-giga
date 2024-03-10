@@ -201,14 +201,24 @@ body {
   width: 500px;
   overflow: hidden; }
 
+@media (max-width: 974px) {
+  .main__nosotros .nosotros__historia .img__somos {
+    height: 25rem; }
+  .main__nosotros .nosotros__historia .container {
+    justify-content: center;
+    padding: 2rem; } }
+
+@media (max-width: 490px) {
+  .main__nosotros .nosotros__historia .img__somos {
+    height: 18rem; } }
+
 .main__nosotros .formula__title {
-  width: 60rem;
   margin-bottom: 5rem; }
 
 .main__nosotros .formula__nosotros {
   background-color: var(--primary-c);
   color: #fff;
-  height: 53rem; }
+  height: 50%; }
   .main__nosotros .formula__nosotros .formula__valores .valores {
     width: 400px;
     margin-right: 9rem;
@@ -216,6 +226,15 @@ body {
 
 .main__nosotros .vision__nosotros .nosotros__mv {
   width: 45rem; }
+
+@media (max-width: 961px) {
+  .main__nosotros .vision__nosotros .img__vision {
+    height: 25rem;
+    margin-top: 1rem; } }
+
+@media (max-width: 490px) {
+  .main__nosotros .vision__nosotros .img__vision {
+    height: 18rem; } }
 
 .header__servicios {
   width: 100%;
