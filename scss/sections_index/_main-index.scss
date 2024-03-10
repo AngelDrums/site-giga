@@ -1,19 +1,8 @@
 .main__index {
 
-    .marcas__index {
-        .article__marcas {
-            padding: 30px 60px 30px 60px;
-
-            .marcas--small {
-                width: 18rem;
-            }
-        }
-    }
-
     .container__grid__img{
         height: 500px;
         margin: 2rem;
-        /* border: solid 1px black; */
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(2,1fr);
@@ -35,13 +24,11 @@
         }
 
         .img__grilla_3{
-            border: solid 1px solid;
             background-image: url(../img/grilla/img-6.jpg);
             background-size: cover;
             grid-area: img3;
         }
         .img__grilla_4{
-            border: solid 1px solid;
             background-image: url(../img/grilla/img-7.jpg);
             background-size: cover;
             grid-area: img4;
@@ -52,4 +39,46 @@
             grid-area: img8;
         }
     }
+    @media(max-width: 811px) {
+
+        .container-sm{
+            max-width: 0;
+        }
+   
+        .container__grid__img{
+            grid-template-columns: repeat(2,1fr);
+            // grid-template-rows: repeat(3,1fr);
+            grid-template-areas: 
+                "img1 img2"
+                "img3 img4"
+                "img5 img6";
+            align-content: center;
+        }
+    }
+    
+    @media(max-width: 660px) {
+    
+        .container__grid__img{
+            height: 216vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4,1fr);
+            grid-template-areas: 
+                "img1"
+                "img2"
+                "img3"
+                "img4";
+        }
+    }
+
+    .marcas__index {
+        .article__marcas {
+            padding: 30px 60px 30px 60px;
+            .marcas--small {
+                width: 18rem;
+            }
+        }
+    }
 }
+
+
+

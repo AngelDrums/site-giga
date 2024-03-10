@@ -4,10 +4,28 @@
     /* height: 20rem; */
 
     .header__container {
-        width: 100%;
+        min-width: 100%;
         height: 50rem;
         background-image: url(../img/bg-giga.png);
         background-size: cover;
+    }
+
+    @media (max-width: 991px){
+        .header__container {
+            min-width: 100%;
+            height: 50rem;
+            background-image: url(../img/bgm-giga.png);
+            background-size: cover;
+        }
+    }
+
+    @media (max-width: 860px){
+        .header__container {
+            min-width: 100vw;
+            height: 40rem;
+            background-image: url(../img/bgms-giga.png);
+            background-size: cover;
+        }
     }
 }
 
