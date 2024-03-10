@@ -1,0 +1,38 @@
+.main__nosotros {
+    .nosotros__title {
+        margin: 6rem;
+    }
+
+    .nosotros__historia {
+        .nosotros__text {
+            width: 500px;
+            overflow: hidden;
+        }
+    }
+
+    .formula__title {
+        width: 60rem;
+        margin-bottom: 5rem;
+    }
+
+    .formula__nosotros {
+        background-color: var(--primary-c);
+        color: #fff;
+        height: 53rem;
+
+        .formula__valores {
+
+            .valores {
+                width: 400px;
+                margin-right: 9rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .vision__nosotros {
+        .nosotros__mv {
+            width: 45rem;
+        }
+    }
+}

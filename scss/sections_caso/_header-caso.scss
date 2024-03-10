@@ -1,0 +1,17 @@
+.logo--small {
+    height: 7.5rem;
+}
+
+.caso__img {
+    display: none;
+    height: 40rem;
+    background-size: cover;
+    background-image: url(../img/bg-office.jpg);
+    
+}
+
+@media (min-width: 991px) {
+    .caso__img {
+        display: block;
+    }
+}

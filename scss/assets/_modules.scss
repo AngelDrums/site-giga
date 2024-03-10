@@ -1,0 +1,28 @@
+.fontz--4 {
+    font-size: 4rem;
+}
+
+.spacing__margint--4 {
+    margin: 4rem 0;
+}
+
+.img--small {
+    width: 45rem;
+    /* background-size: cover; */
+
+}
+
+.img--smaller {
+    width: 100%;
+    height: auto;
+    /* background-size: cover; */
+
+}
+.imagen-cuadrada {
+    height: 40rem;
+    /* Ancho deseado para la imagen cuadrada */
+    aspect-ratio: 1/1;
+    /* Establece la relación de aspecto a 1:1 para hacerla cuadrada */
+    object-fit: cover;
+    /* Opcional: para recortar la imagen y ajustarla al contenedor */
+}

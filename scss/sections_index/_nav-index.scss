@@ -1,0 +1,65 @@
+/* En la barra de navegación se utilizo css nesting */
+.nav {
+    background-color: var(--primary-c);
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 6rem;
+        background-color: var(--primary-c);
+        padding: 0 3rem;
+    }
+
+    /* Logo */
+    .nav__logo {
+        height: 7.5rem;
+    }
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 2rem;
+        padding: .5rem;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+                background-color: black;
+                padding: .5rem;
+            }
+        }
+    }
+}
+
+/* Navegación Mobile*/
+.logo--small {
+    height: 7.5rem;
+}
+    .caso__img {
+        display: none;
+        height: 40rem;
+        background-size: cover;
+        background-image: url(../img/bg-office.jpg);
+    }
+.nav__caso {
+    background-color: var(--primary-c);
+
+    .caso__menu {
+        width: 100%;
+
+        a {
+            color: #fff;
+            font-size: 1.8rem;
+            padding: 1rem;
+            margin-right: 1.5rem;
+
+            &:hover {
+                background-color: #000;
+            }
+        }
+    }
+}

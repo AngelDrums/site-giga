@@ -1,0 +1,43 @@
+.main__servicios {
+    .servicios__camara {
+        margin-top: 5rem;
+
+        .camara__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-right: 6rem;
+        }
+    }
+
+    .servicios__automatizacion {
+        margin-top: 5rem;
+
+        .automatizacion__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-left: 6rem;
+        }
+    }
+
+    .servicios__paneles {
+        margin-top: 5rem;
+
+        .paneles__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-right: 6rem;
+        }
+    }
+
+    .servicios__software {
+        margin-top: 5rem;
+
+        .software__text {
+            width: 40rem;
+            font-size: 1.8rem;
+            margin-left: 6rem;
+
+        }
+    }
+
+}

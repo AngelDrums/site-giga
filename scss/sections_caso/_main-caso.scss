@@ -1,0 +1,29 @@
+.main__caso {
+    .caso__position__card {
+        /* border: 1px solid black; */
+    }
+
+    .caso__descripcion {
+        .caso__articulo__2 {
+            margin-left: 5rem;
+        }
+    }
+
+
+}
+
+.caso__position__description__img {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 991px) {
+    .caso__position__description__img{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 30rem;
+    }
+}
