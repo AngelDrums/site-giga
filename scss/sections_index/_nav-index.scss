@@ -1,6 +1,6 @@
 /* En la barra de navegación se utilizo css nesting */
 .nav {
-    background-color: var(--primary-c);
+    background-color: $primary-c;
 
     .container {
         display: flex;
@@ -8,7 +8,7 @@
         align-items: center;
         justify-content: space-between;
         height: 6rem;
-        background-color: var(--primary-c);
+        background-color: $primary-c;
         padding: 0 3rem;
     }
 
@@ -46,7 +46,7 @@
         background-image: url(../img/bg-office.jpg);
     }
 .nav__caso {
-    background-color: var(--primary-c);
+    background-color: $primary-c;
 
     .caso__menu {
         width: 100%;

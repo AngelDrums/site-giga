@@ -26,9 +26,6 @@
 .fontz--4 {
   font-size: 4rem; }
 
-:root {
-  --primary-c: #0E71B8; }
-
 /* Reset */
 * {
   margin: 0;
@@ -67,7 +64,7 @@ body {
 
 /* En la barra de navegación se utilizo css nesting */
 .nav {
-  background-color: var(--primary-c);
+  background-color: #0E71B8;
   /* Logo */ }
   .nav .container {
     display: flex;
@@ -75,7 +72,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 6rem;
-    background-color: var(--primary-c);
+    background-color: #0E71B8;
     padding: 0 3rem; }
   .nav .nav__logo {
     height: 7.5rem; }
@@ -102,7 +99,7 @@ body {
   background-image: url(../img/bg-office.jpg); }
 
 .nav__caso {
-  background-color: var(--primary-c); }
+  background-color: #0E71B8; }
   .nav__caso .caso__menu {
     width: 100%; }
     .nav__caso .caso__menu a {
@@ -190,7 +187,7 @@ body {
     width: 18rem; }
 
 .footer {
-  background-color: var(--primary-c); }
+  background-color: #0E71B8; }
   .footer img {
     width: 15rem; }
 
@@ -216,7 +213,7 @@ body {
   margin-bottom: 5rem; }
 
 .main__nosotros .formula__nosotros {
-  background-color: var(--primary-c);
+  background-color: #0E71B8;
   color: #fff;
   height: 50%; }
   .main__nosotros .formula__nosotros .formula__valores .valores {
