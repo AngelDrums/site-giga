@@ -10,12 +10,28 @@
         .text__servicios {
             height: 100%;
 
+          
+
             .tienda__style {
                 color: white;
                 margin-right: 45rem;
+
+                
+            }
+
+            @media (max-width: 1005px){
+                .tienda__style{
+                    margin: 0;
+                }
+            }
+            @media (max-width: 552px){
+                .tienda__style{
+                    text-align: center;
+                }
             }
         }
     }
-
+   
 
 }
+

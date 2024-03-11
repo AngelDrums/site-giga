@@ -248,12 +248,14 @@ body {
       .header__servicios .header__container__servicios .text__servicios .tienda__style {
         color: white;
         margin-right: 45rem; }
-      @media (max-width: 1005px) {
-        .header__servicios .header__container__servicios .text__servicios .tienda__style {
-          margin: 0; } }
-      @media (max-width: 552px) {
-        .header__servicios .header__container__servicios .text__servicios .tienda__style {
-          text-align: center; } }
+  @media (max-width: 988px) {
+    .header__servicios .text__servicios {
+      border: solid black 1px;
+      justify-content: center; } }
+  @media (max-width: 988px) {
+    .header__servicios .tienda__style {
+      border: 1px solid black;
+      text-align: center; } }
 
 .main__servicios .servicios__camara {
   margin-top: 5rem; }
@@ -282,20 +284,6 @@ body {
     width: 40rem;
     font-size: 1.8rem;
     margin-left: 6rem; }
-
-@media (max-width: 991px) {
-  .main__servicios .d-flex {
-    justify-content: center; } }
-
-@media (max-width: 430px) {
-  .main__servicios .camara__text {
-    padding-left: 5rem; }
-  .main__servicios .automatizacion__text {
-    padding-right: 5rem; }
-  .main__servicios .paneles__text {
-    padding-left: 5rem; }
-  .main__servicios .software__text {
-    padding-right: 5rem; } }
 
 .logo--small {
   height: 7.5rem; }
