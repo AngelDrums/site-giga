@@ -67,5 +67,13 @@
         .software__text{
             padding-right: 5rem;
         }
+        .imagen-cuadrada {
+            height: 35rem;
+            /* Ancho deseado para la imagen cuadrada */
+            aspect-ratio: 1/1;
+            /* Establece la relación de aspecto a 1:1 para hacerla cuadrada */
+            object-fit: cover;
+            /* Opcional: para recortar la imagen y ajustarla al contenedor */
+        }
     }
 }

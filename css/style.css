@@ -295,7 +295,14 @@ body {
   .main__servicios .paneles__text {
     padding-left: 5rem; }
   .main__servicios .software__text {
-    padding-right: 5rem; } }
+    padding-right: 5rem; }
+  .main__servicios .imagen-cuadrada {
+    height: 35rem;
+    /* Ancho deseado para la imagen cuadrada */
+    aspect-ratio: 1/1;
+    /* Establece la relación de aspecto a 1:1 para hacerla cuadrada */
+    object-fit: cover;
+    /* Opcional: para recortar la imagen y ajustarla al contenedor */ } }
 
 .logo--small {
   height: 7.5rem; }
