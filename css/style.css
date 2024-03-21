@@ -130,6 +130,12 @@ body {
       height: 40rem;
       background-image: url(../img/bgms-giga.png);
       background-size: cover; } }
+  @media (max-width: 390px) {
+    .header__index .header__container {
+      min-width: 100vw;
+      height: 40rem;
+      background-image: url(../img/logo-giga-small.png);
+      background-size: cover; } }
 
 .section__icon {
   display: flex;
