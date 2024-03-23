@@ -1,15 +1,10 @@
 .main__caso {
-    .caso__position__card {
-        /* border: 1px solid black; */
-    }
 
     .caso__descripcion {
         .caso__articulo__2 {
             margin-left: 5rem;
         }
     }
-
-
 }
 
 .caso__position__description__img {
@@ -25,5 +20,31 @@
     }
     .card{
         width: 30rem;
+    }
+
+    .caso__position__description__img{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15rem;
+    }
+    .caso__position__card{
+        margin-right: 10rem;
+    }
+    .card-img-top{
+        width: 80.5rem;
+    }
+
+    .caso__info{
+        display: flex;
+        // border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+        margin: 5rem 0;
+
+        .text__caso{
+            // border: 1px solid blue;
+            width: 60rem;
+            margin-left: 10rem;
+        }
     }
 }

@@ -320,9 +320,6 @@ body {
   .caso__img {
     display: block; } }
 
-.main__caso .caso__position__card {
-  /* border: 1px solid black; */ }
-
 .main__caso .caso__descripcion .caso__articulo__2 {
   margin-left: 5rem; }
 
@@ -336,4 +333,20 @@ body {
     align-items: center;
     justify-content: center; }
   .card {
-    width: 30rem; } }
+    width: 30rem; }
+  .caso__position__description__img {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15rem; }
+  .caso__position__card {
+    margin-right: 10rem; }
+  .card-img-top {
+    width: 80.5rem; }
+  .caso__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0; }
+    .caso__info .text__caso {
+      width: 60rem;
+      margin-left: 10rem; } }
