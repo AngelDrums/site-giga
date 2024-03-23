@@ -332,15 +332,13 @@ body {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center; }
-  .card {
-    width: 30rem; }
   .caso__position__description__img {
     display: flex;
     justify-content: space-between;
     padding-left: 15rem; }
   .caso__position__card {
     margin-right: 10rem; }
-  .card-img-top {
+  .caso__img--big {
     width: 80.5rem; }
   .caso__info {
     display: flex;
